@@ -1,6 +1,6 @@
 # Bookings and Reservations
 
-# This is the first step template to build web app using Go
+# Section 7 - Lesson 43: Creating pages as HTMl
 
 The repository for [Building Modern Web Applications with Go](https://www.udemy.com/course/building-modern-web-applications-with-go/?referralCode=0415FB906223F10C6800).
 
