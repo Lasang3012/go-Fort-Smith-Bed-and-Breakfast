@@ -1,6 +1,6 @@
 # Bookings and Reservations
 
-# Section 7 - Lesson 43: Creating pages as HTMl
+# Section 7 - Lesson 44: Creating pages as HTML
 
 The repository for [Building Modern Web Applications with Go](https://www.udemy.com/course/building-modern-web-applications-with-go/?referralCode=0415FB906223F10C6800).
 
