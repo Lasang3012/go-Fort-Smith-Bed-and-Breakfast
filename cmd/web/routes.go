@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/Lasang3012/go-course/pkg/config"
-	"github.com/Lasang3012/go-course/pkg/handlers"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/config"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/handlers"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )

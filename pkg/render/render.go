@@ -1,14 +1,15 @@
 package render
 
 import (
-	"github.com/Lasang3012/go-course/pkg/config"
-	"github.com/Lasang3012/go-course/pkg/models"
 	"bytes"
 	"fmt"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
+
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/config"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/models"
 )
 
 var functions = template.FuncMap{}

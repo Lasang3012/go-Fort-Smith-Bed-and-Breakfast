@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/Lasang3012/go-course/pkg/config"
-	"github.com/Lasang3012/go-course/pkg/models"
-	"github.com/Lasang3012/go-course/pkg/render"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/config"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/models"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/render"
 )
 
 // Repo the repository used by the handlers
