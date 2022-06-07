@@ -2,4 +2,4 @@
 
 # Section 7: Javascript & CSS
 
-# 56. Using our Javascript module on the "Book Now" button
+# 57. What is CSS, and how does it work?
