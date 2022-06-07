@@ -2,4 +2,4 @@
 
 # Section 7: Javascript & CSS
 
-# 52. Custom alerts using Notie
+# 53. Creating modals with SweetAlert
