@@ -1,10 +1,5 @@
 # Bookings and Reservations
 
-# Section 6 - Lesson 44: Creating pages as HTML
+# Section 7: Javascript & CSS
 
-The repository for [Building Modern Web Applications with Go](https://www.udemy.com/course/building-modern-web-applications-with-go/?referralCode=0415FB906223F10C6800).
-
-- Built in Go version 1.15
-- Uses the [chi router](github.com/go-chi/chi)
-- Uses [alex edwards scs session management](github.com/alexedwards/scs)
-- Uses [nosurf](github.com/justinas/nosurf)
+# 50. What is Javascript, and why should I care?
