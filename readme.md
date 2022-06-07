@@ -1,5 +1,3 @@
 # Bookings and Reservations
 
-# Section 7: Javascript & CSS
-
-# 57. What is CSS, and how does it work?
+# Section 8: Coverting our HTML to Go Templates, and creating handlers
