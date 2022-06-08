@@ -2,4 +2,4 @@
 
 # Section 8: Coverting our HTML to Go Templates, and creating handlers
 
-# 62. Sending AJAX post and generalizing our custom function
+# 64. Server-side form validation
