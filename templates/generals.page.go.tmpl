@@ -68,6 +68,15 @@
       attention.custom({
         title: "Choose your dates",
         msg: html,
+        callback: function(reuslt){
+          console.log("called");
+
+          fetch('/search-availability-json').then(response => response.json()).then(data => {
+            console.log(data);
+            console.log(data.ok);
+            console.log(data.message);
+          })
+        }
       });
     });
 </script>
