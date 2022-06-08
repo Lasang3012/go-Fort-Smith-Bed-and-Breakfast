@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/config"
-	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/handlers"
-	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/render"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/config"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/handlers"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/render"
 	"github.com/alexedwards/scs/v2"
 )
 

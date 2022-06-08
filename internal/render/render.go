@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/config"
-	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/pkg/models"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/config"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/models"
 	"github.com/justinas/nosurf"
 )
 
