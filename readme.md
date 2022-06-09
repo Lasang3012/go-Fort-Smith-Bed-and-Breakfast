@@ -2,4 +2,4 @@
 
 # Section 8: Coverting our HTML to Go Templates, and creating handlers
 
-# 68. Displaying a response to user after posting form data
+# 69. Finishing up our response to user, and adding alerts
