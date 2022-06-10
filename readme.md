@@ -1,5 +1,3 @@
 # Bookings and Reservations
 
-# Section 12: Designing the Database Structure
-
-# 95. Solution to Exercise
+# Section 13: Connecting our Application to the Database
