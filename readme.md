@@ -2,4 +2,4 @@
 
 # Section 10: Improved Error Handling
 
-# 80. Centralizing our error handling to a helpers package
+# 81. Using our ClientError and ServerError helper functions
