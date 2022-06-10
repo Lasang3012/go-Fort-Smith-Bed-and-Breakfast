@@ -2,4 +2,4 @@
 
 # Section 12: Designing the Database Structure
 
-# 89. Install Soda
+# 90. Creating the users table using migrations
