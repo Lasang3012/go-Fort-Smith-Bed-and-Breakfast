@@ -2,4 +2,4 @@
 
 # Section 12: Designing the Database Structure
 
-# 90. Creating the users table using migrations
+# 91. Creating the rest of our database using migrations
