@@ -2,4 +2,4 @@
 
 # Section 12: Designing the Database Structure
 
-# 92. Setting up a foreign key
+# 93. Setting up the rest of our foreign keys
