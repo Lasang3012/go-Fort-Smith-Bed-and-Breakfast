@@ -1,5 +1,3 @@
 # Bookings and Reservations
 
-# Section 11: Persisting Data with PostgreSQL
-
-# 87. More complex queries
+# Section 12: Designing the Database Structure
