@@ -2,4 +2,4 @@
 
 # Section 9: Writing Tests
 
-# 73. Writing tests for our POST handlers
+# 74. Writing tests for our Render package I
