@@ -8,10 +8,13 @@ import (
 	"net/http"
 
 	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/config"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/driver"
 	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/forms"
 	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/helpers"
 	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/models"
 	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/render"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/repository"
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/repository/dbrepo"
 )
 
 // Repo the repository used by the handlers
@@ -20,12 +23,14 @@ var Repo *Repository
 // Repository is the repository type
 type Repository struct {
 	App *config.AppConfig
+	DB  repository.DatabaseRepo
 }
 
 // NewRepo creates a new repository
-func NewRepo(a *config.AppConfig) *Repository {
+func NewRepo(a *config.AppConfig, db *driver.DB) *Repository {
 	return &Repository{
 		App: a,
+		DB:  dbrepo.NewPostgresRepo(db.SQL, a),
 	}
 }
 
