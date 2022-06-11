@@ -2,4 +2,4 @@
 
 # Section 13: Connecting our Application to the Database
 
-# 108. Connecting search availablity to the make reservation page
+# 109. Cleaning up our make reservation page and testing everything
