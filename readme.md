@@ -2,4 +2,4 @@
 
 # Section 13: Connecting our Application to the Database
 
-# 111. Searching for availability by Room
+# 112. Providing feedback when searching by room, and connecting to the reservation pag
