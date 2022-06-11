@@ -2,4 +2,4 @@
 
 # Section 13: Connecting our Application to the Database
 
-# 107. Connecting our handlers to our new database functions
+# 108. Connecting search availablity to the make reservation page
