@@ -2,6 +2,7 @@ package dbrepo
 
 import (
 	"context"
+	"fmt"
 	"time"
 
 	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/models"
@@ -73,17 +74,17 @@ func (m *postgresDBRepo) SearchAvailabilityByDatesByRoomID(start, end time.Time,
 	var numRows int
 
 	query := `select count(id) from room_restrictions 
-				where 
-					room_id = $1
-					$2 < end_date and $3 > start_date;`
+				where $1 < end_date and $2 > start_date and room_id = $3`
 
-	row := m.DB.QueryRowContext(ctx, query, roomID, start, end)
+	row := m.DB.QueryRowContext(ctx, query, start, end, roomID)
 	err := row.Scan(&numRows)
 	if err != nil {
 		return false, err
 	}
 
-	if numRows == 0 {
+	fmt.Printf("numRows %v", numRows)
+
+	if numRows != 0 {
 		return true, nil
 	}
 	return false, nil
