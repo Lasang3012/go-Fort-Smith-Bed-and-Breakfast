@@ -2,4 +2,4 @@
 
 # Section 14: Updating our tests
 
-# 121. Testing AvailabilityJSON
+# 122. Completed Handler tests
