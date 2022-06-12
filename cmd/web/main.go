@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"net/smtp"
 	"os"
 	"time"
 
@@ -32,7 +33,14 @@ func main() {
 	}
 	defer db.SQL.Close()
 
-	fmt.Println(fmt.Sprintf("Staring application on port %s", portNumber))
+	from := "me@here.com"
+	auth := smtp.PlainAuth("", from, "", "localhost")
+	err = smtp.SendMail("localhost:1025", auth, from, []string{"you@here.com"}, []byte("Hello, world"))
+	if err != nil {
+		log.Println(err)
+	}
+
+	fmt.Println(fmt.Sprintf("Staring application on port #{portNumber}"))
 	// _ = http.ListenAndServe(portNumber, nil)
 
 	srv := &http.Server{
@@ -85,7 +93,7 @@ func run() (*driver.DB, error) {
 	app.TemplateCache = tc
 	app.UseCache = false
 
-	repo := handlers.NewRepo(&app,db)
+	repo := handlers.NewRepo(&app, db)
 	handlers.NewHandlers(repo)
 	render.NewRenderer(&app)
 	helpers.NewHelpers(&app)
