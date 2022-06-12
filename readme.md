@@ -2,4 +2,4 @@
 
 # Section 14: Updating our tests
 
-# 117. Creating a test database repository
+# 118. Updating our existing tests to handle sessions
