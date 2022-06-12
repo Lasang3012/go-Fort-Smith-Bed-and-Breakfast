@@ -2,4 +2,4 @@
 
 # Section 15: Sending Mail using Go
 
-# 130. Sending nicely formatted email using Foundation
+# 131. Updating our tests
