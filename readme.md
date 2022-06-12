@@ -2,4 +2,4 @@
 
 # Section 15: Sending Mail using Go
 
-# 129. Solution to sending notification to property owner
+# 130. Sending nicely formatted email using Foundation
