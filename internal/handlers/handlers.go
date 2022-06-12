@@ -189,10 +189,10 @@ func (m *Repository) PostReservation(w http.ResponseWriter, r *http.Request) {
 	`, reservation.FirstName, reservation.StartDate.Format("2006-01-02"), reservation.EndDate.Format("2006-01-02"))
 
 	msg := models.MailData{
-		To:      reservation.Email,
-		From:    "me@here.com",
-		Subject: "Reservation Confirmation",
-		Content: htmlMessage,
+		To:       reservation.Email,
+		From:     "me@here.com",
+		Subject:  "Reservation Confirmation",
+		Content:  htmlMessage,
 		Template: "basic.html",
 	}
 
@@ -206,10 +206,10 @@ func (m *Repository) PostReservation(w http.ResponseWriter, r *http.Request) {
 		reservation.StartDate.Format("2006-01-02"), reservation.EndDate.Format("2006-01-02"))
 
 	msg = models.MailData{
-		To:      " me@here.com",
-		From:    "me@here.com",
-		Subject: "Reservation Notification",
-		Content: htmlMessage,
+		To:       " me@here.com",
+		From:     "me@here.com",
+		Subject:  "Reservation Notification",
+		Content:  htmlMessage,
 		Template: "basic.html",
 	}
 
@@ -449,4 +449,10 @@ func (m *Repository) BookRoom(w http.ResponseWriter, r *http.Request) {
 	m.App.Session.Put(r.Context(), "reservation", res)
 
 	http.Redirect(w, r, "/make-reservation", http.StatusSeeOther)
+}
+
+func (m *Repository) ShowLogin(w http.ResponseWriter, r *http.Request) {
+	render.Template(w, r, "login.page.tmpl", &models.TemplateData{
+		Form: forms.New(nil),
+	})
 }

@@ -2,4 +2,4 @@
 
 # Section 16: Authentication
 
-# 132. Create the login screen
+# 133. Creating the authentication handlers for the login screen
