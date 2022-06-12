@@ -4,6 +4,7 @@ import (
 	"html/template"
 	"log"
 
+	"github.com/Lasang3012/go-Fort-Smith-Bed-and-Breakfast/internal/models"
 	"github.com/alexedwards/scs/v2"
 )
 
@@ -15,4 +16,5 @@ type AppConfig struct {
 	ErrorLog      *log.Logger
 	InProduction  bool
 	Session       *scs.SessionManager
+	MailChan      chan models.MailData
 }

@@ -2,4 +2,4 @@
 
 # Section 15: Sending Mail using Go
 
-# 124. Sending email using the Standard Library
+# 125. Installing a mailer package and setting up a mail channel
