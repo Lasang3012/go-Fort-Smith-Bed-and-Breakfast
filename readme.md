@@ -2,4 +2,4 @@
 
 # Section 16: Authentication
 
-# 133. Creating the authentication handlers for the login screen
+# 134. Creating the authentication and user database functions
