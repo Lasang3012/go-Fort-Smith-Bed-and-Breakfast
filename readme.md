@@ -2,4 +2,4 @@
 
 # Section 14: Updating our tests
 
-# 120. Testing Post handlers
+# 121. Testing AvailabilityJSON
