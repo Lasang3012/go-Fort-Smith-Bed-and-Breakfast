@@ -2,4 +2,4 @@
 
 # Section 15: Sending Mail using Go
 
-# 127. Installing Mailhog on Windows for testing purposes
+# 128. Creating and sending mail notifications
