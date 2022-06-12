@@ -2,4 +2,4 @@
 
 # Section 13: Connecting our Application to the Database
 
-# 113. Connecting the rooms page to the make reservation page
+# 114. Connecting the Major's Suite page, and extracting our javascript module
