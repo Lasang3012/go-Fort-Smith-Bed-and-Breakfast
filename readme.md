@@ -2,4 +2,4 @@
 
 # Section 17: Setting up secure back end administration
 
-# 144. Solution to creating admin templates
+# 145. Create stub handlers for admin functionality
