@@ -2,4 +2,4 @@
 
 # Section 16: Authentication
 
-# 138. Testing Login
+# 139. Checking to see if a user is logged in, and logging a user out
