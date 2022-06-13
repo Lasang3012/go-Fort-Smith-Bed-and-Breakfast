@@ -2,4 +2,4 @@
 
 # Section 17: Setting up secure back end administration
 
-# 141. Picking an admin template
+# 142. Convert the admin template into a Go template
